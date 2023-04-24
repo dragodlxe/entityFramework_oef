@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\drago\\Documents\\Proyects\\csharp\\oefproject\\oefproject.csproj": {}
+    "C:\\Users\\drago\\Documents\\code\\entityFramework_oef\\oefproject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\drago\\Documents\\Proyects\\csharp\\oefproject\\oefproject.csproj": {
+    "C:\\Users\\drago\\Documents\\code\\entityFramework_oef\\oefproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drago\\Documents\\Proyects\\csharp\\oefproject\\oefproject.csproj",
+        "projectUniqueName": "C:\\Users\\drago\\Documents\\code\\entityFramework_oef\\oefproject.csproj",
         "projectName": "oefproject",
-        "projectPath": "C:\\Users\\drago\\Documents\\Proyects\\csharp\\oefproject\\oefproject.csproj",
+        "projectPath": "C:\\Users\\drago\\Documents\\code\\entityFramework_oef\\oefproject.csproj",
         "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drago\\Documents\\Proyects\\csharp\\oefproject\\obj\\",
+        "outputPath": "C:\\Users\\drago\\Documents\\code\\entityFramework_oef\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,15 +42,21 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
@@ -76,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
